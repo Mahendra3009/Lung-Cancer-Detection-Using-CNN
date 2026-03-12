@@ -27,15 +27,15 @@ This system automatically analyzes medical CT scan images and classifies them in
 -Google Colab
 -VS Code
 ## Workflow of the System
-1. Dataset Collection
+1. Dataset Collection:
 Collect lung CT scan images from medical datasets.
-2. Data Preprocessing
-Resize images
-Normalize pixel values
-Apply augmentation techniques
-3. Model Training
+2. Data Preprocessing:
+Resize images,
+Normalize pixel values,
+Apply augmentation techniques.
+3. Model Training:
 Train the Attention-Enhanced InceptionNeXt CNN.
-$. Model Evaluation
+4. Model Evaluation:
 Evaluate using performance metrics.
-6. Prediction
+5. Prediction:
 Classify new CT scan images as cancerous or non-cancerous.
