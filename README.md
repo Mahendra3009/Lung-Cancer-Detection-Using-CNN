@@ -3,26 +3,26 @@ Lung cancer is one of the leading causes of cancer-related deaths worldwide. Ear
 The proposed model combines the powerful feature extraction capability of the InceptionNeXt architecture with an attention mechanism to focus on the most relevant regions of lung CT scan images. By integrating attention modules, the model improves classification performance and enhances interpretability.
 This system automatically analyzes medical CT scan images and classifies them into cancerous or non-cancerous categories, assisting healthcare professionals in faster and more reliable diagnosis.
 ## Objectives
-The main objectives of this project are:
+### The main objectives of this project are:
 -To develop a deep learning model for early detection of lung cancer.
 -To enhance feature extraction using the InceptionNeXt architecture.
 -To integrate attention mechanisms for improved detection accuracy.
 -To build a system that assists radiologists in medical image analysis.
 -To evaluate the performance of the model using standard metrics such as accuracy, precision, recall, and F1-score.
 ## Technologies Used
-Programming Language
+### Programming Language
 -Python
-Deep Learning Frameworks
+### Deep Learning Frameworks
 -TensorFlow
 -Keras
 -PyTorch (optional implementation)
-Libraries
+### Libraries
 -NumPy
 -Pandas
 -Matplotlib
 -Scikit-learn
 -OpenCV
-Development Environment
+### Development Environment
 -Jupyter Notebook
 -Google Colab
 -VS Code
