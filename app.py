@@ -35,7 +35,7 @@ def predict():
         # ✅ Download model if not exists
         if not os.path.exists("lungmodel.h5"):
             import gdown
-            url = https://drive.google.com/uc?id=15DdJ-Fy7mQUyi1wTmas6HDAVQ72cbZre
+            url = "https://drive.google.com/uc?id=15DdJ-Fy7mQUyi1wTmas6HDAVQ72cbZre"
             gdown.download(url, "lungmodel.h5", quiet=False)
 
         # Load model
