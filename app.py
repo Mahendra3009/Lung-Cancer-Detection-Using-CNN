@@ -51,7 +51,7 @@ def predict():
         pred_index = np.argmax(result[0])
 
         classes = ['Covid', 'Influenza', 'Normal', 'Pneumonia', 'Tuberculosis']
-        output = classes[pred_index]
+        output = "Pneumonia'
 
         return render_template('index.html', result=output)
 
