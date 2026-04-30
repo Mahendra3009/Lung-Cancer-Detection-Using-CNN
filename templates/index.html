@@ -1,4 +1,20 @@
-<link rel="stylesheet" href="{{ url_for('static', filename='css/style-starter.css') }}">
-<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
-<script src="{{ url_for('static', filename='js/jquery-3.3.1.min.js') }}"></script>
-<script src="{{ url_for('static', filename='js/theme-change.js') }}"></script>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+</head>
+<body>
+
+<h1>App is Working ✅</h1>
+
+<form action="/predict" method="post" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <button type="submit">Predict</button>
+</form>
+
+{% if result %}
+<h2>Result: {{ result }}</h2>
+{% endif %}
+
+</body>
+</html>
